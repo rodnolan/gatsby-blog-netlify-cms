@@ -49,6 +49,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "local-cms": "npx netlify-cms-proxy-server",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
